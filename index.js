@@ -1,4 +1,3 @@
-
 let receivesAFunction = (value) => value();
 
 function returnsANamedFunction() {
