@@ -1,23 +1,14 @@
 
-
-
-
-function receivesAFunction(value) {
-     value();
-}
-
+let receivesAFunction = (value) => value();
 
 function returnsANamedFunction() {
     return function namedFunc() {
     console.log("returns my named function");
-}
-}
-
-
-function returnsAnAnonymousFunction() {
-return () => console.log("returns anonymous function");
  }
+}
 
+ let  returnsAnAnonymousFunction = () => () => console.log(" anonymous function");
+ 
 
 
 
